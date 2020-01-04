@@ -26,7 +26,7 @@ docker-compose run web django-admin.py startproject nome_do_projeto .
 
 Ao ser executado pela primeira vez, o comando vai criar o container, instalar o Django em sua última versão e criar o projeto dentro do diretório `./app`
 
-# Agora é só subir o ambiente de desenvolvimento
+## Agora é só subir o ambiente de desenvolvimento
 
 Execute
 ```shell
