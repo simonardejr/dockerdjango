@@ -33,3 +33,10 @@ Execute
 docker-compose up -d
 ```
 E acesse `http://localhost:8000` no seu navegador ;)
+
+## Executando comandos
+
+Para executar comandos do Django, por exemplo, `migrate`, você pode executar assim:
+```shell
+docker-compose run web ./manage.py migrate
+```
